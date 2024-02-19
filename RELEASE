@@ -1,0 +1,24 @@
+IPFS hash of the deployment:
+- CIDv0: `Qmbj1BRiCidfqEHnayhdwiEWEwFvP7RJbH58pmw3G81PvV`
+- CIDv1: `bafybeigg4hnmdqhtzox3vuqnfy2pmvb6mkr5kgoubridxbe3idri7qx6qy`
+
+The latest release is always mirrored at [app.uniswap.org](https://app.uniswap.org).
+
+You can also access the Uniswap Interface from an IPFS gateway.
+**BEWARE**: The Uniswap interface uses [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to remember your settings, such as which tokens you have imported.
+**You should always use an IPFS gateway that enforces origin separation**, or our hosted deployment of the latest release at [app.uniswap.org](https://app.uniswap.org).
+Your Uniswap settings are never remembered across different URLs.
+
+IPFS gateways:
+- https://bafybeigg4hnmdqhtzox3vuqnfy2pmvb6mkr5kgoubridxbe3idri7qx6qy.ipfs.dweb.link/
+- https://bafybeigg4hnmdqhtzox3vuqnfy2pmvb6mkr5kgoubridxbe3idri7qx6qy.ipfs.cf-ipfs.com/
+- [ipfs://Qmbj1BRiCidfqEHnayhdwiEWEwFvP7RJbH58pmw3G81PvV/](ipfs://Qmbj1BRiCidfqEHnayhdwiEWEwFvP7RJbH58pmw3G81PvV/)
+
+## 5.6.0 (2024-01-29)
+
+
+### Features
+
+* **web:** bump v2-sdk [hotfix for prod] (#5987) 22b73de
+
+
